@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Showcase of Responsive Website Elements</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Nunito:ital,wght@1,300&family=Playfair+Display:wght@800&display=swap" rel="stylesheet"> 
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <!-- 1. Navigation menu -->
+    <header class="header">
+        <nav>
+            <div class="nav-container">
+                <div class="row">
+                    <div class="nav__logo"><a href="#"><img src="images/logo-white.svg" alt="Go to my portfolio"></a>
+                    </div>
+                    
+                    <a href="#" class="toggle-menu" id="toggle-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+
+                    <div class="nav__menu" id="nav__menu">
+                        <ul class="nav__links">
+                            <li><a href="#mixed-media" class="nav__link">Mixed Media Layouts</a></li>
+                            <li><a href="#image-layout" class="nav__link">Image Layout</a></li>
+                            <li><a href="#text-content" class="nav__link">Text Content</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 2. Hero section -->
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="header__text-column">
+                        <h3 class="header__suptext">The showcase of</h3>
+                        <h1 class="header__title">Responsive Website Elements</h1>
+                        <p class="header__paragraph">This is a page presenting some of my skills as web developer. Scroll to see the elements or use the menu to quickly find the desired section.</p>
+                    </div>
+                    <div class="header__image">
+                        <img src="images/webdeveloper.svg" alt="">
+                    </div>
+                </div>
+                <div class="header__scroll">
+                    <img src="images/arrow2.svg" alt="Scroll down">
+                </div>  
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- 3. Layout with mixed media-->
+    <section class="mixed-media" id="mixed-media">
+        <div class="container">
+            <h2>Mixed Media Layouts</h2>
+
+            <!-- 3.1 Cards -->
+            <article class="cards" id="cards" name="cards">
+
+                <div class="row-description">
+                    <h3>— Cards</h3>
+                    <p class="article__text">The cards are created using flexbox that displays them as a row on desktop and as a column on mobile (starting at 700px of viewport width).</p>
+                </div>
+
+                <div class="row cards__row">
+
+                    <div class="cards__card">
+                        <img src="images/icon1.svg" class="cards-icon" alt="">
+                        <h4>First Card</h4>
+                        <p>Sollicitudin aliquam ultrices sagittis orci a scelerisque. Id porta nibh venenatis cras sed.</p>
+                    </div>
+
+                    <div class="cards__card">
+                        <img src="images/icon2.svg" class="cards-icon" alt="">
+                        <h4>Second Card</h4>
+                        <p>Sollicitudin aliquam ultrices sagittis orci a scelerisque. Id porta nibh venenatis cras sed.</p>
+                    </div>
+
+                    <div class="cards__card">
+                        <img src="images/icon3.svg" class="cards-icon" alt="">
+                        <h4>Third Card</h4>
+                        <p>Sollicitudin aliquam ultrices sagittis orci a scelerisque. Id porta nibh venenatis cras sed.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 3.2 Multi-column text-image -->
+            <article class="text-image" id="text-image">
+
+                <div class="row-description">
+                    <h3>— Text with image</h3>
+                    <p class="article__text">In this layout image appears on the right or the left side of text on desktop (over 700px of viewport width). However it doesn't affect the order of appearance in the mobile view—the image will always precede the text.</p>
+                </div>
+
+                <div class="row--reverse-mobile text-image__row">
+                    <p class="text-image__text">Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Porttitor rhoncus dolor purus non enim praesent. Auctor elit sed vulputate mi sit amet mauris commodo quis. Velit ut tortor pretium viverra suspendisse potenti nullam. Phasellus vestibulum lorem sed risus. Nam at lectus urna duis convallis convallis tellus. Nunc mattis enim ut tellus elementum sagittis. Risus feugiat in ante metus. </p>
+                    <img src="images/text-image1.svg" class="text-image__image" alt="">
+                </div>
+
+                <div class="row text-image__row">
+                    <img src="images/text-image2.svg" class="text-image__image" alt="">
+                    <p class="text-image__text">Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Porttitor rhoncus dolor purus non enim praesent. Auctor elit sed vulputate mi sit amet mauris commodo quis. Velit ut tortor pretium viverra suspendisse potenti nullam. Phasellus vestibulum lorem sed risus. Nam at lectus urna duis convallis convallis tellus. Nunc mattis enim ut tellus elementum sagittis. Risus feugiat in ante metus. </p>
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- 4. Image layout -->
+    <section class="image-layout" id="image-layout">
+        <div class="container">
+            <h2>Image Layout</h2>
+
+            <!-- 4.1 Grid gallery with lightbox -->
+            <article class="grid-gallery" id="grid-gallery">
+
+                <div class="row-description">
+                    <h3>— Grid gallery</h3>
+                    <div class="article__text">
+                        <p>The photos are displayed in an irregular grid (some photos span over multiple columns or rows). After you click on the photo, it will be displayed in a lightbox in the biggest possible size—depending on the viewport.</p>
+                        <p>Inside the lightbox, you can navigate to next or previous photographs that are in an infinite loop. You can do it using mouse or keyboard. To close the lightbox, press Escape key, click the closing icon or simply click outside of the image. Lightbox feature is written in pure JavaScript.</p>
+                    </div>
+                </div>
+
+                <div class="grid-gallery__images">
+
+                    <div class="grid-gallery__image--zoom horizontal-stretch">
+                        <img src="images/grid-gallery/grid-horizontal-image.jpg" class="grid-gallery__image" alt="Mountains">
+                    </div>
+
+                    <div class="grid-gallery__image--zoom">
+                        <img src="images/grid-gallery/grid-square-image1.jpg" class="grid-gallery__image" alt="Aurora">
+                    </div>
+
+                    <div class="grid-gallery__image--zoom vertical-stretch">
+                        <img src="images/grid-gallery/grid-vertical-image2.jpg" class="grid-gallery__image" alt="Sea with sky reflection">
+                    </div>
+
+                    <div class="grid-gallery__image--zoom">
+                        <img src="images/grid-gallery/grid-square-image2.jpg" class="grid-gallery__image" alt="Diving turtle">
+                    </div>
+
+                    <div class="grid-gallery__image--zoom vertical-stretch">
+                        <img src="images/grid-gallery/grid-vertical-image1.jpg" class="grid-gallery__image" alt="Mountains">
+                    </div>
+
+                    <div class="grid-gallery__image--zoom">
+                        <img src="images/grid-gallery/grid-square-image3.jpg" class="grid-gallery__image" alt="Algae">
+                    </div>
+                    
+                </div>
+
+                <div class="lightbox hidden">
+                    <button type="button" class="lightbox__close"><img src="images/close-button.svg" alt="Close lightbox"></button>
+                    <img src="" alt="" class="lightbox__image">
+                    <button class="lightbox__arrow lightbox__arrow--previous"><img src="images/previous-button.svg" alt="Go to the previous image"></button>
+                    <button class="lightbox__arrow lightbox__arrow--next"><img src="images/next-button.svg" alt="Go to the next image"></button>
+                </div>
+
+            </article>
+
+            <!-- 4.2 Image gallery slider -->
+            <article class="image-gallery-slider" id="image-gallery-slider">
+
+                <div class="row-description">
+                    <h3>— Gallery slider</h3>
+                    <p class="article__text">Thi is a simple image gallery slider where you can go to the next or previous image using arrows that appear next to the current photo. You can also go quickly to a chosen image by choosing a dot representing it under the current photo.</p>
+                </div>
+
+                <div class="slider">
+                    <div class="slider__top-row">
+
+                        <div class="slider__container">
+                            <img src="images/image-gallery/earth1.jpg" alt="" class="slide slide-active" id="slide1">
+                            <img src="images/image-gallery/forest-night-sky-with-stars.jpg" alt="" class="slide" id="slide2">
+                            <img src="images/image-gallery/fuji-mountain-with-milky-way-night.jpg" alt="" class="slide" id="slide3">
+                            <img src="images/image-gallery/earth2.jpg" alt="" class="slide" id="slide4">
+                            <img src="images/image-gallery/silhouette-person-northern-lights.jpg" alt="" class="slide" id="slide5">
+
+                            <img src="images/previous-button.svg" alt="Go to the previous image" class="slider__arrow--previous" />
+                            <img src="images/next-button.svg" alt="Go to the next image" class="slider__arrow--next">
+                        </div>
+
+                    </div>
+
+                    <div class="row slider__bottom-row">
+                        <div class="slider__dots">
+                            <div class="slider__dot dot-active" id="dot1"></div>
+                            <div class="slider__dot" id="dot2"></div>
+                            <div class="slider__dot" id="dot3"></div>
+                            <div class="slider__dot" id="dot4"></div>
+                            <div class="slider__dot" id="dot5"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 5. Text content -->
+    <section class="text-content" id="text-content">
+        <div class="container">
+            <h2>Text content</h2>
+
+            <!-- 5.1 Horizontal tabs -->
+            <article class="horizontal-tabs" id="horizontal-tabs">
+
+                <div class="row-description">
+                    <h3>— Horizontal tabs</h3>
+                    <div class="article__text">
+                        <p>You can display the content of each tab in the frame below after you click on it. On mobile the tabs stack one top of each other.</p>
+                        <p>Inside the tabs I present some design options for different web page elements.</p>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <ul class="tabs__names">
+                        <li data-tab-target="#title" class="tabs__name tab-active">Title styles</li>
+                        <li data-tab-target="#quote" class="tabs__name">Quote layouts</li>
+                        <li data-tab-target="#list" class="tabs__name">List design</li>
+                    </ul>
+    
+                    <div class="tabs__content">
+    
+                        <div id="title" data-tab-content class="tab-active">
+                            <h4>Title styles</h4>
+                            <p>A page title or a section title should be very easy to spot and distinguish from other site content.</p>
+
+                            <h5>#1</h5>
+                            <p class="title title-margin">Use a <span class="underline">modern underline</span> to make it interesting</p>
+
+                            <h5>#2</h5>
+                            <p class="title title2 title-margin">Draw attention with a line</p>
+
+                            <h5>#3</h5>
+                            <div class="row--reverse-desktop">
+                                <div class="title__image"></div>
+                                <span class="title title3"><p>Title that partially overlaps an image</p></span>
+                            </div>
+                            
+
+                        </div>
+    
+                        <div id="quote" data-tab-content>
+                            <h4>Quote designs</h4>
+                            <p>Quotes break long walls of text and provide interesting look and diversity.</p>
+
+                            <h5>#1</h5>
+                            <div class="quote1">
+                                <p>Egestas congue quisque egestas diam in arcu. Id semper risus in hendrerit gravida rutrum quisque non tellus.</p>
+                            </div>
+
+                            <h5>#2</h5>
+                            <div class="quote2">
+                                <p>Mauris augue neque gravida in fermentum et sollicitudin ac. Nulla porttitor massa id neque aliquam vestibulum morbi.</p>
+                            </div>
+
+                            <h5>#3</h5>
+                            <div class="quote3">
+                                <p>Commodo odio aenean sed adipiscing. Velit egestas dui id ornare arcu odio ut sem nulla. Volutpat odio facilisis mauris sit amet massa vitae tortor.</p>
+                            </div>
+                        </div>
+    
+                        <div id="list" data-tab-content>
+                            <h4>List designs</h4>
+                            <p>Standard ordered or unordered lists can be boring. But there are plenty of customization possibilities!</p>
+
+                            <h5>#1</h5>
+                            <p>In this unordered list, I have changed the marker to an image.</p>
+                            <div class="list__wrapper">
+                                <ul class="list1">
+                                    <li>Duis efficitur porttitor neque vitae aliquet.</li>
+                                    <li>Mauris iaculis convallis tincidunt.</li>
+                                    <li>Cras et libero eget diam consequat ultrices.</li>
+                                </ul>
+                            </div>
+
+                            <h5>#2</h5>
+                            <p>Here is an ordered list with customized counter.</p>
+                            <div class="list__wrapper">
+                                <ol class="list2">
+                                    <li>Praesent laoreet erat</li>
+                                    <li>Curabitur ac nulla</li>
+                                    <li>Proin vel congue dui</li>
+                                </ol>
+                            </div>
+                            
+                            <h5>#3</h5>
+                            <p>This is an ordered list with a more complex design.</p>
+                            <div class="list__wrapper">
+                                <ol class="list3">
+                                    <li><span class="list3__title">Morbi nisi nunc</span><br />Donec fermentum orci vel nibh ullamcorper, sed accumsan magna ultricies. Vivamus eros justo, volutpat ac cursus ac, laoreet vel tortor. Vivamus blandit volutpat consectetur. Morbi ullamcorper purus nulla, nec fringilla tellus faucibus vel. Vestibulum eget aliquet nisi.</li>
+                                    <li><span class="list3__title">Aliquam a ex vitae</span><br />Donec fermentum orci vel nibh ullamcorper, sed accumsan magna ultricies. Vivamus eros justo, volutpat ac cursus ac, laoreet vel tortor. Vivamus blandit volutpat consectetur. Morbi ullamcorper purus nulla, nec fringilla tellus faucibus vel. Vestibulum eget aliquet nisi.</li>
+                                    <li><span class="list3__title">Phasellus ornare</span><br />Donec fermentum orci vel nibh ullamcorper, sed accumsan magna ultricies. Vivamus eros justo, volutpat ac cursus ac, laoreet vel tortor. Vivamus blandit volutpat consectetur. Morbi ullamcorper purus nulla, nec fringilla tellus faucibus vel. Vestibulum eget aliquet nisi.</li>
+                                </ol>
+                            </div>
+                            
+
+
+
+                        </div>
+                    </div>
+
+                </div>  
+            </article>
+
+            <!-- 5.2 Accordion tabs -->
+            <article class="accordion-tabs" id="accordion-tabs">
+
+                <div class="row-description">
+                    <h3>— Accordion tabs</h3>
+                    <div class="article__text">
+                        <p>You can unfold the tabs to see the content inside by clicking the chosen tab. To close it, simply click on the tab title panel again.</p>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <button type="button" class="accordion__button">Coming soon</button>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus itaque magnam deserunt qui explicabo esse facilis quis dignissimos, mollitia eum possimus totam ullam laborum asperiores soluta? Laudantium, deleniti voluptatum.</p>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <button type="button" class="accordion__button">Coming soon</button>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus itaque magnam deserunt qui explicabo esse facilis quis dignissimos, mollitia eum possimus totam ullam laborum asperiores soluta? Laudantium, deleniti voluptatum.</p>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <button type="button" class="accordion__button">Coming soon</button>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus itaque magnam deserunt qui explicabo esse facilis quis dignissimos, mollitia eum possimus totam ullam laborum asperiores soluta? Laudantium, deleniti voluptatum.</p>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <div class="contact-footer">
+
+        <!-- 6. Contact -->
+        <section class="contact">
+            <img src="images/section-wave.svg" alt="" class="section-wave">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2>Do you like what you see?</h2>
+                        <p>Let's work together! I will be very thrilled to contribute to your next project. I am currently available for hire.</p>
+                    </div>
+
+                    <div class="contact-right">
+                        <h3>Let's talk</h3>
+                        <p>Tell me where I could be of help.</p>
+                        <form action="https://formsubmit.co/katarzynagois@protonmail.com" method="POST" class="contact__form">
+                            <label for="name">Name</label></br>
+                            <input type="text" name="name" id="name" required> </br>
+                            <label for="company">Company</label></br>
+                            <input type="text" name="company" id="company" required> </br>
+                            <label for="email">E-mail</label></br>
+                            <input type="email" name="email" id="email" required> </br>
+                            <label for="message">Message</label></br>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea></br>
+                            <button type="submit" class="contact__button">Send message</button>
+                       </form> 
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <!-- 7. Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-left">
+                        <img src="images/logo-full-white.svg" alt="See my portfolio" class="footer__logo">
+                        <p class="footer__text">UI designer and frontend developer. Click my name above to see more of my work.</p>
+                    </div>
+
+                    <div class="footer-right">
+                        <div class="row">
+                            <ul>
+                                <li class="footer__category">Mixed Media Layouts</li>
+                                <li><a href="#cards">Cards</a></li>
+                                <li><a href="#text-image">Text With Image</a></li>
+                            </ul>
+    
+                            <ul>
+                                <li class="footer__category">Image Layout</li>
+                                <li><a href="#grid-gallery">Grid Gallery</a></li>
+                                <li><a href="#image-gallery-slider">Gallery Slider</a></li>
+                            </ul>
+    
+                            <ul>
+                                <li class="footer__category">Text Content</li>
+                                <li><a href="#horizontal-tabs">Horizontal Tabs</a></li>
+                                <li><a href="#accordion-tabs">Accordion Tabs</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="footer-bar">
+                <div class="container row">
+                    <p>Created by Katarzyna Gois</p>
+                    <a href="legal-notice.html" class="legal-notice-link">Legal notice</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <a href="#" class="back-to-top">&#8682;</a>
+    </main>
+</body>
+</html>

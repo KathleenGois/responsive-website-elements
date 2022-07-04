@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg5937"
+   viewBox="0 0 301.52499 262.57165"
+   height="74.103554mm"
+   width="85.097054mm">
+  <defs
+     id="defs5939">
+    <linearGradient
+       id="linearGradient5693">
+      <stop
+         id="stop5695"
+         offset="0"
+         style="stop-color:#8443d6;stop-opacity:1" />
+      <stop
+         id="stop5697"
+         offset="1"
+         style="stop-color:#44ced3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="1186.6345"
+       x2="1234.762"
+       y1="1186.6345"
+       x1="1167.108"
+       id="linearGradient5723"
+       xlink:href="#linearGradient5693"
+       gradientTransform="matrix(1.25,0,0,-1.25,-1040.3446,2380.8448)" />
+  </defs>
+  <metadata
+     id="metadata5942">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-252.71143,-766.26726)"
+     id="layer1">
+    <path
+       d="m 390.18044,1000.7573 c 5.0375,33.975 -73.8125,35.0125 -80.475,-16.36251 -32.4375,9.0875 -54.85,-22.225 -39.1625,-49.9 -18.8125,-12.8375 -18.4625,-50.2875 1.1375,-61.5125 -14.975,-15.9625 3.2,-60.65 39.4125,-52.6875 -9.8875,-35.8875 42.4875,-65.1375 79.3,-36.5375 l -0.2125,217.00001 z"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path382" />
+    <path
+       d="m 309.99294,812.33229 c 2.6875,15.92501 16.7125,28.25 32.7125,31.125"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path384" />
+    <path
+       d="m 342.70544,800.35729 c -3.7,23.80001 36.2375,33.7875 47.0875,18.35"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path386" />
+    <path
+       d="m 322.75544,835.48229 c -0.0625,8.35 -11.25,19.0375 -17.5625,21.5375"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path388" />
+    <path
+       d="m 298.01794,884.14479 c 9.8375,4.975 10.0625,19.3 20.7125,22.4625 11.1625,3.325 17.2375,-9 21.725,-17.5625 6.8375,-13.0625 16.9875,-18.35 31.7625,-16.025 4.825,0.75 13.1875,4.1375 15.975,5.55"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path390" />
+    <path
+       d="m 286.84294,883.35729 c 7.65,9.475 19.9125,-4.525 11.975,-12.7625"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path392" />
+    <path
+       d="m 390.58044,932.83229 c -10.475,-10.45 -26.8,1.3375 -30.3125,12.65 -4.1375,13.325 8.4625,24.1875 4.025,37.1625 -2.6875,7.875 -8.875,11.35 -16.8,10.0375"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path394" />
+    <path
+       d="m 309.99294,991.06979 c -12.3,-32.1875 48.675,-23.125 22.3375,-71.8125"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path396" />
+    <path
+       d="m 270.08044,936.01979 c 4.375,-7.15 14.8125,-7.675 22.4125,-7.2125 6.875,0.425 14.6,5.6125 17.5,6.4125"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path398" />
+    <path
+       d="m 548.96794,919.28229 1.15,-35.1125 -21.2875,-0.7 c -1.3,-7.2875 -3.3,-14.3375 -5.9875,-21.03749 l 19.525,-10.70001 -16.9,-30.79999 -20.75,11.375 c -4.475,-5.25 -9.45,-10.07501 -14.8375,-14.38751 l 12.4,-20.9625 -30.2375,-17.89999 -12.7875,21.61249 c -6.2,-2.25 -12.6875,-3.95 -19.3625,-5.05 l 0,-25.3625 -17.3625,0 0,254.57501 17.3625,0 0,-15.725 c 6.6125,-1.075 13.025,-2.75 19.175,-4.975 l 7.4875,14.0625 31.0125,-16.475 -7.8375,-14.76251 c 5.7875,-4.6375 11.1125,-9.825 15.85,-15.5375 l 14.65,9.35 18.8875,-29.6375 -15.7875,-10.05 c 2.75,-7.15 4.7875,-14.6625 5.95,-22.4625 l 19.6875,0.6625 z"
+       style="fill:none;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path400" />
+    <path
+       d="m 422.53044,820.7573 0,24.2125 c 28.95,0.11249 52.375,23.59999 52.375,52.57499 0,28.975 -23.425,52.475 -52.375,52.5875 l 0,24.2125 c 42.3125,-0.125 76.5875,-34.45 76.5875,-76.8 0,-42.34999 -34.275,-76.67499 -76.5875,-76.78749"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#212427;stroke-width:1.25;stroke-opacity:1"
+       id="path402" />
+    <path
+       d="m 422.53044,820.7573 0,24.2125 c 28.95,0.11249 52.375,23.59999 52.375,52.57499 0,28.975 -23.425,52.475 -52.375,52.5875 l 0,24.2125 c 42.3125,-0.125 76.5875,-34.45 76.5875,-76.8 0,-42.34999 -34.275,-76.67499 -76.5875,-76.78749 z"
+       style="fill:url(#linearGradient5723);fill-opacity:1;stroke:#212427;stroke-width:7.98005009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path404" />
+  </g>
+</svg>
