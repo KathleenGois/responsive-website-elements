@@ -147,7 +147,6 @@ nav {
 }
 
 .toggle-menu {
-    background-color: red;
     background-size: contain;
     background-image: url(../images/menu-icon.svg);
     background-repeat: no-repeat;
