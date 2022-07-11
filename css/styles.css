@@ -147,21 +147,14 @@ nav {
 }
 
 .toggle-menu {
-    display: flex;
-    flex-direction: column;
+    background-size: contain;
+    background-image: url(../images/menu-icon.svg);
+    background-repeat: no-repeat;
     height: 21px;
-    justify-content: space-between;
     position: absolute;
     right: 1rem;
     top: 1.5rem;
     width: 30px;
-}
-
-.bar {
-    background-color: var(--white);
-    border-radius: 10px;
-    height: 3px;
-    width: 100%;
 }
 
 .nav__menu {
